@@ -64,7 +64,6 @@ class MainActivity : Activity() {
         }
         root.addView(computerSounds)
 
-        // Speed control
         root.addView(TextView(this).apply {
             text = "سرعت گفتار"
             textSize = 16f
